@@ -1,3 +1,3 @@
 
 run:
-	@python src/run.py
+	@python run.py

@@ -5,3 +5,8 @@
 
 # MacOS
 .DS_Store
+
+# only upload post_example.json
+config/
+!config/post_example.json
+!config/get_example.json
