@@ -1,4 +1,5 @@
 import argparse
+from decorator import debug
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='tttest')
