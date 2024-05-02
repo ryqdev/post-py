@@ -2,9 +2,13 @@ from loguru import logger
 
 
 def debug(func):
-    def wrapper():
-        logger.info(f"start {func.__name__}")
-        func()
-        logger.info(f"end {func.__name__}")
+
+    def wrapper(*args, **kwargs):
+        logger.debug(f"start {func.__name__}")
+        logger.debug(f"Args: {args}")
+        logger.debug(f"Kwargs: {kwargs}")
+
+        func(*args, **kwargs)
+        logger.debug(f"end {func.__name__}")
 
     return wrapper
