@@ -1,0 +1,7 @@
+# IDE configuration files
+.vscode
+.idea
+
+
+# MacOS
+.DS_Store
