@@ -1,0 +1,11 @@
+{
+  "endpoint": "https://you-search-zeta.vercel.app",
+  "path": "/ping",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "id": "111"
+  }
+}
